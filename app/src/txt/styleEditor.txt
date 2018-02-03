@@ -1,0 +1,19 @@
+    <div class="style-editor" id="style-box">
+        <div class="header header-clicked">
+            <div class="toolbar">
+                <div class="buttons">
+                    <div class="system-buttons">
+                        <div class="circle red"></div>
+                        <div class="circle yellow"></div>
+                        <div class="circle green"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="title title-clicked">style
+                <span class="edited">— Edited</span>
+            </div>
+        </div>
+        <div class="text-content">
+            <pre contenteditable="true" id="style-text"></pre>
+        </div>
+    </div>

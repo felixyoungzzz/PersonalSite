@@ -1,0 +1,16 @@
+<svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
+    <defs>
+        <clipPath id='clip-x'>
+            <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+        </clipPath>
+    </defs>
+    <text class='svg-text' dy='.3em' x='50%' y='50%'>
+        
+    </text>
+    <g clip-path='url(#clip-x)'>
+        <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href=''></image>
+        <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+            
+        </text>
+    </g>
+</svg>

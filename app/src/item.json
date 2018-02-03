@@ -1,0 +1,21 @@
+{
+    "itemsmsg": [{
+            "text": "打码",
+            "path": "./src/image/01.gif",
+            "bgpath":"./src/image/01bg.jpg",
+            "href":"https://felixyoungzzz.github.io/"
+        },
+        {
+            "text": "音乐",
+            "path": "./src/image/02.jpg",
+            "bgpath":"./src/image/02bg.jpg",
+            "href":"https://music.163.com/playlist?id=92663940&userid=82404596"
+        },
+        {
+            "text": "电影",
+            "path": "./src/image/03.jpg",
+            "bgpath":"./src/image/03bg.jpg",
+            "href":"#"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+    <div class="master-editor" id="master-box">
+        <div class="header header-unclicked">
+            <div class="toolbar">
+                <div class="buttons">
+                    <div class="system-buttons">
+                        <div class="circle gray"></div>
+                        <div class="circle gray"></div>
+                        <div class="circle gray"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="title title-unclicked">About me
+                <span class="edited">— Edited</span>
+            </div>
+        </div>
+        <div class="text-content">
+            <div class="container">
+               <div id="master-text">
+               </div>
+               <div class="items">
+               </div>
+            </div>
+        </div>
+    </div>

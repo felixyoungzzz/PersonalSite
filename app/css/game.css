@@ -1,0 +1,25 @@
+#offline-resources {
+    display: none;
+}
+
+.runner-container {
+    height: 150px;
+    max-width: 600px;
+    overflow: hidden;
+    opacity: 1;
+}
+
+#c {
+    height: 150px;
+    max-width: 600px;
+    opacity: 1;
+}
+
+.offline {
+    transition: -webkit-filter 1.5s cubic-bezier(0.65, 0.05, 0.36, 1), background-color 1.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+    will-change: -webkit-filter, background-color;
+}
+
+.offline.inverted { 
+    background-color: #000;
+}

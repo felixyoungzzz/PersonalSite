@@ -1,0 +1,18 @@
+<div class="trick-editor" id="trick-box">
+            <div class="header header-unclicked">
+                <div class="toolbar">
+                    <div class="buttons">
+                        <div class="system-buttons">
+                            <div class="circle gray"></div>
+                            <div class="circle gray"></div>
+                            <div class="circle gray"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="trick-title" class="title title-unclicked">
+                </div>
+            </div>
+            <div class="text-content">
+                <img id="catgif" ondragstart="return false;">
+            </div>
+        </div>

@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin-top: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#desktop {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.style-editor {
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 50px 1px rgba(50, 50, 50, 0.4);
+    border-radius: 6px 6px 6px 6px;
+    width: 20%;
+    height: 45%;
+    left: 1%;
+    top: 1%;
+    position: absolute;
+    z-index: 4;
+}
+
+.master-editor {
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 50px 1px rgba(50, 50, 50, 0.4);
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    left: 15%;
+    top: 100%;
+    z-index: 3;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.game-editor {
+    display: none;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 50px 1px rgba(50, 50, 50, 0.4);
+    width: 600px;
+    height: 171px;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    z-index: 2;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.trick-editor {
+    display: none;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 50px 1px rgba(50, 50, 50, 0.4);
+    width: 200px;
+    height: 125px;
+    position: absolute;
+    left: 65%;
+    top: 65%;
+    z-index: 1;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.header {
+    height: 21px;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+    cursor: default;
+}
+
+.header-unclicked {
+    border-bottom: 1px solid #dbdbdb;
+    background: #f6f6f6;
+}
+
+.header-clicked {
+    border-bottom: 1px solid #bbbbbb;
+    background: linear-gradient(to bottom, #f1f1f1 0%, #d6d5d6 100%);
+}
+
+.system-buttons {
+    display: block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.circle {
+    display: block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.circle+.circle {
+    margin-left: 8px;
+}
+
+.red {
+    background: #FF5E51;
+    border: 1px solid #E24238;
+}
+
+.yellow {
+    background: #FFBF09;
+    border: 1px solid #F6B000;
+}
+
+.green {
+    background: #15CC35;
+    border: 1px solid #4BBA55;
+}
+
+.gray {
+    background: #e3e3e3 !important;
+    border: 1px solid #dcdcdc !important;
+}
+
+.title {
+    position: absolute;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    left: 68px;
+    right: 68px;
+}
+
+.title-unclicked {
+    color: #bbb;
+}
+
+.title-clicked {
+    color: #151515;
+}
+
+.edited {
+    color: #aaa;
+}
+
+.text-content {
+    clear: both;
+    width: 100%;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0 0 6px 6px;
+    letter-spacing: 0.01em;
+    line-height: 1.2em;
+    background: white;
+}
+
+#style-text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: 0;
+    cursor: text;
+    padding: 10px;
+    height: 94.5%;
+    overflow: auto;
+    font-size: 13px;
+}
+
+#catgif {
+    border-radius: 0 0 6px 6px;
+}

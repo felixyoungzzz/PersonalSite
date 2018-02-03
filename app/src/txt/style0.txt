@@ -1,0 +1,63 @@
+/**
+  * 
+  * 你好.
+  * 我是Felix.
+  *
+  * 在进行自我介绍之前我们先来做一些酷酷的事情...
+  * 
+  * 就是,
+  * 打代码.
+  */
+
+
+/**
+  * 听起来就很酷是不是.
+  * Let's go.
+  * 
+  */
+
+* {
+    transition: all 1s;
+}
+
+
+/**
+  * 加了这个好像暂时没什么卵用.
+  * 
+  * 马上你就会看到了.
+  * 
+  */
+
+.style-editor {
+    left: 73%;
+    top: 5%;
+}
+
+
+/**
+  * 只有黑白好像很无趣.
+  *
+  * 毕竟,
+  * Color makes things beautiful.
+  *
+  * 让我们来加一点色彩吧.
+  */
+
+.comment { color: #857F6B;font-style: italic; }
+.selector { color: #5391CE; }
+.selector .key { color: #C42B23; }
+.key { color: #C42B23; }
+.value { color: #F38900; }
+.value.px { color: #4D4D4C; }
+
+/**
+  * 
+  * 这样好看多了(不管，就是好看).
+  * 
+  * 接下来该开始说正事了.
+  */
+
+.master-editor {
+    top: 10%;
+}
+
