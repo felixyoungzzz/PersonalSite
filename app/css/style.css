@@ -1,0 +1,28 @@
+.outter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.inner-container {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+
+.commet-container p:nth-child(1) {
+  color: #807777;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.commet-container p:nth-child(2),
+.commet-container p:nth-child(3) {
+  color: #3c3c3c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
